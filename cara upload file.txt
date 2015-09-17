@@ -2,4 +2,22 @@
 2. Buat repository (New Repository)
    - beri nama. misalnya pemrograman-3
    - pilih blank (jangan initialisasi dengan readme)
-   - kjjsjhdas
+   - Klik Ok
+   - Akan muncul URL repository, klik yang http dan copy
+3. Buat repository di local dengan perintah :
+   git init nama-repositorynya
+   misal : git init pemrograman-3
+4. masuk ke folder yag terbentuk
+   cd pemrograman-3
+5. buat/masukkan file (dengan windows explorer) ke dalam folder
+6. Edit dan save file
+7. masukkan file ke repository local
+   git add.
+   git commit -m "commit upload file di git"
+8. setup repository kita yang di guthub
+   git remote add github https://url.yanag.tadi.dibuat
+9. upload repository local ke github
+   git push -u github master
+10. ulangi langkah 5,6,7 untuk menambah file baru
+11. untuk upload selanjutnya, cukup dengan perintah
+    git push 
