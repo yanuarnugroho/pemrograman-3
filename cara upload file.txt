@@ -1,0 +1,5 @@
+1. Registrasi di https://github.com
+2. Buat repository (New Repository)
+   - beri nama. misalnya pemrograman-3
+   - pilih blank (jangan initialisasi dengan readme)
+ 
